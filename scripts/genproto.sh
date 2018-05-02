@@ -15,7 +15,7 @@ if ! [[ $(protoc --version) =~ "3.4" ]]; then
 	exit 255
 fi
 
-PROM_ROOT="${GOPATH}/src/github.com/prometheus/prometheus"
+PROM_ROOT="${GOPATH}/src/github.com/loggregator/prometheus"
 PROM_PATH="${PROM_ROOT}/prompb"
 GOGOPROTO_ROOT="${GOPATH}/src/github.com/gogo/protobuf"
 GOGOPROTO_PATH="${GOGOPROTO_ROOT}:${GOGOPROTO_ROOT}/protobuf"

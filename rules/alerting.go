@@ -28,12 +28,12 @@ import (
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/rulefmt"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/template"
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/rulefmt"
+	"github.com/loggregator/prometheus/pkg/timestamp"
+	"github.com/loggregator/prometheus/promql"
+	"github.com/loggregator/prometheus/template"
+	"github.com/loggregator/prometheus/util/strutil"
 )
 
 const (

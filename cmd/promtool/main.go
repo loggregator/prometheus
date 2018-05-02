@@ -26,10 +26,10 @@ import (
 	config_util "github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
 	"github.com/prometheus/common/version"
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/pkg/rulefmt"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/util/promlint"
+	"github.com/loggregator/prometheus/config"
+	"github.com/loggregator/prometheus/pkg/rulefmt"
+	"github.com/loggregator/prometheus/promql"
+	"github.com/loggregator/prometheus/util/promlint"
 )
 
 func main() {

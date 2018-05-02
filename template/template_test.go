@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/promql"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/promql"
 )
 
 type testTemplatesScenario struct {

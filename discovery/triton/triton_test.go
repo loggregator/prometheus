@@ -28,7 +28,7 @@ import (
 
 	"github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
 )
 
 var (

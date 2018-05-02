@@ -36,12 +36,12 @@ import (
 	"github.com/prometheus/tsdb"
 	tsdbLabels "github.com/prometheus/tsdb/labels"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	pb "github.com/prometheus/prometheus/prompb"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/retrieval"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/timestamp"
+	pb "github.com/loggregator/prometheus/prompb"
+	"github.com/loggregator/prometheus/promql"
+	"github.com/loggregator/prometheus/retrieval"
+	"github.com/loggregator/prometheus/storage"
 )
 
 // API encapsulates all API services.

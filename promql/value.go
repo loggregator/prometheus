@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prometheus/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/labels"
 )
 
 // Value is a generic interface for values resulting from a query evaluation.

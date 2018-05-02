@@ -31,11 +31,11 @@ import (
 
 	config_util "github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/util/httputil"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/loggregator/prometheus/config"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/util/httputil"
+	"github.com/loggregator/prometheus/util/testutil"
 )
 
 func TestPostPath(t *testing.T) {

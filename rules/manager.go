@@ -29,12 +29,12 @@ import (
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/rulefmt"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/pkg/value"
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/rulefmt"
+	"github.com/loggregator/prometheus/pkg/timestamp"
+	"github.com/loggregator/prometheus/pkg/value"
+	"github.com/loggregator/prometheus/promql"
+	"github.com/loggregator/prometheus/storage"
 )
 
 // Constants for instrumentation.

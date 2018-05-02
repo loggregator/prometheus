@@ -35,10 +35,10 @@ import (
 	influx "github.com/influxdata/influxdb/client/v2"
 
 	"github.com/prometheus/common/promlog"
-	"github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/graphite"
-	"github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/influxdb"
-	"github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/opentsdb"
-	"github.com/prometheus/prometheus/prompb"
+	"github.com/loggregator/prometheus/documentation/examples/remote_storage/remote_storage_adapter/graphite"
+	"github.com/loggregator/prometheus/documentation/examples/remote_storage/remote_storage_adapter/influxdb"
+	"github.com/loggregator/prometheus/documentation/examples/remote_storage/remote_storage_adapter/opentsdb"
+	"github.com/loggregator/prometheus/prompb"
 )
 
 type config struct {

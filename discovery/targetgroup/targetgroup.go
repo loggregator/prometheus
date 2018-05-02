@@ -17,7 +17,7 @@ import (
 	"encoding/json"
 
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/util/yaml"
+	"github.com/loggregator/prometheus/util/yaml"
 )
 
 // Group is a set of targets with a common label set(production , test, staging etc.).

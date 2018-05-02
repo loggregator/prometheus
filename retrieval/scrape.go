@@ -33,16 +33,16 @@ import (
 	"github.com/prometheus/common/version"
 	"golang.org/x/net/context/ctxhttp"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/pool"
-	"github.com/prometheus/prometheus/pkg/relabel"
-	"github.com/prometheus/prometheus/pkg/textparse"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/pkg/value"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/util/httputil"
+	"github.com/loggregator/prometheus/config"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/pool"
+	"github.com/loggregator/prometheus/pkg/relabel"
+	"github.com/loggregator/prometheus/pkg/textparse"
+	"github.com/loggregator/prometheus/pkg/timestamp"
+	"github.com/loggregator/prometheus/pkg/value"
+	"github.com/loggregator/prometheus/storage"
+	"github.com/loggregator/prometheus/util/httputil"
 )
 
 var (

@@ -25,8 +25,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	config_util "github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	yaml_util "github.com/prometheus/prometheus/util/yaml"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
+	yaml_util "github.com/loggregator/prometheus/util/yaml"
 
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/pkg/api"

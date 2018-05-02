@@ -14,20 +14,20 @@
 package config
 
 import (
-	"github.com/prometheus/prometheus/discovery/azure"
-	"github.com/prometheus/prometheus/discovery/consul"
-	"github.com/prometheus/prometheus/discovery/dns"
-	"github.com/prometheus/prometheus/discovery/ec2"
-	"github.com/prometheus/prometheus/discovery/file"
-	"github.com/prometheus/prometheus/discovery/gce"
-	"github.com/prometheus/prometheus/discovery/kubernetes"
-	"github.com/prometheus/prometheus/discovery/marathon"
-	"github.com/prometheus/prometheus/discovery/openstack"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/discovery/triton"
-	"github.com/prometheus/prometheus/discovery/zookeeper"
+	"github.com/loggregator/prometheus/discovery/azure"
+	"github.com/loggregator/prometheus/discovery/consul"
+	"github.com/loggregator/prometheus/discovery/dns"
+	"github.com/loggregator/prometheus/discovery/ec2"
+	"github.com/loggregator/prometheus/discovery/file"
+	"github.com/loggregator/prometheus/discovery/gce"
+	"github.com/loggregator/prometheus/discovery/kubernetes"
+	"github.com/loggregator/prometheus/discovery/marathon"
+	"github.com/loggregator/prometheus/discovery/openstack"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
+	"github.com/loggregator/prometheus/discovery/triton"
+	"github.com/loggregator/prometheus/discovery/zookeeper"
 
-	yaml_util "github.com/prometheus/prometheus/util/yaml"
+	yaml_util "github.com/loggregator/prometheus/util/yaml"
 )
 
 // ServiceDiscoveryConfig configures lists of different service discovery mechanisms.

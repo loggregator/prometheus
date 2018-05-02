@@ -30,8 +30,8 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/promql"
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/loggregator/prometheus/promql"
+	"github.com/loggregator/prometheus/util/strutil"
 )
 
 // A version of vector that's easier to use from templates.

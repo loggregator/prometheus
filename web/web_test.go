@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/prometheus/storage/tsdb"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/loggregator/prometheus/storage/tsdb"
+	"github.com/loggregator/prometheus/util/testutil"
 	libtsdb "github.com/prometheus/tsdb"
 )
 

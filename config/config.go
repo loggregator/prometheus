@@ -24,8 +24,8 @@ import (
 
 	config_util "github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
-	sd_config "github.com/prometheus/prometheus/discovery/config"
-	yaml_util "github.com/prometheus/prometheus/util/yaml"
+	sd_config "github.com/loggregator/prometheus/discovery/config"
+	yaml_util "github.com/loggregator/prometheus/util/yaml"
 	"gopkg.in/yaml.v2"
 )
 

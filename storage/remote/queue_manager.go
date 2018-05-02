@@ -24,9 +24,9 @@ import (
 	"github.com/go-kit/kit/log/level"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/prompb"
-	"github.com/prometheus/prometheus/relabel"
+	"github.com/loggregator/prometheus/config"
+	"github.com/loggregator/prometheus/prompb"
+	"github.com/loggregator/prometheus/relabel"
 )
 
 // String constants for instrumentation.

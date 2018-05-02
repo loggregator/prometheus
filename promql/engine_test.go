@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"github.com/go-kit/kit/log"
-	"github.com/prometheus/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/labels"
 )
 
 func TestQueryConcurrency(t *testing.T) {

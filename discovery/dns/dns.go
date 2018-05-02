@@ -26,8 +26,8 @@ import (
 	"github.com/miekg/dns"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	yaml_util "github.com/prometheus/prometheus/util/yaml"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
+	yaml_util "github.com/loggregator/prometheus/util/yaml"
 )
 
 const (

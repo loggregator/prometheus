@@ -20,7 +20,7 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/config"
+	"github.com/loggregator/prometheus/config"
 )
 
 // Process returns a relabeled copy of the given label set. The relabel configurations

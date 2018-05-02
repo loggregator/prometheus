@@ -34,13 +34,13 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/discovery/targetgroup"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/timestamp"
-	"github.com/prometheus/prometheus/pkg/value"
-	"github.com/prometheus/prometheus/storage"
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/loggregator/prometheus/config"
+	"github.com/loggregator/prometheus/discovery/targetgroup"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/timestamp"
+	"github.com/loggregator/prometheus/pkg/value"
+	"github.com/loggregator/prometheus/storage"
+	"github.com/loggregator/prometheus/util/testutil"
 )
 
 func TestNewScrapePool(t *testing.T) {

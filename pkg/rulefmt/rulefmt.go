@@ -20,7 +20,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/promql"
+	"github.com/loggregator/prometheus/promql"
 	yaml "gopkg.in/yaml.v2"
 )
 

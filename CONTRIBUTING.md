@@ -24,9 +24,9 @@ Prometheus uses GitHub to manage reviews of pull requests.
 
 Should you wish to work on an issue, please claim it first by commenting on the GitHub issue that you want to work on it. This is to prevent duplicated efforts from contributors on the same issue.
 
-Please check the [`low-hanging-fruit`](https://github.com/prometheus/prometheus/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22) label to find issues that are good for getting started. If you have questions about one of the issues, with or without the tag, please comment on them and one of the maintainers will clarify it. For a quicker response, contact us over [IRC](https://prometheus.io/community).
+Please check the [`low-hanging-fruit`](https://github.com/loggregator/prometheus/issues?q=is%3Aissue+is%3Aopen+label%3A%22low+hanging+fruit%22) label to find issues that are good for getting started. If you have questions about one of the issues, with or without the tag, please comment on them and one of the maintainers will clarify it. For a quicker response, contact us over [IRC](https://prometheus.io/community).
 
-For complete instructions on how to compile see: [Building From Source](https://github.com/prometheus/prometheus#building-from-source)
+For complete instructions on how to compile see: [Building From Source](https://github.com/loggregator/prometheus#building-from-source)
 
 For quickly compiling and testing your changes do:
 ```
@@ -38,7 +38,7 @@ go build ./cmd/prometheus/
 make test         # Make sure all the tests pass before you commit and push :)
 ```
 
-All our issues are regularly tagged so that you can also filter down the issues involving the components you want to work on. For our labelling policy refer [the wiki page](https://github.com/prometheus/prometheus/wiki/Label-Names-and-Descriptions).
+All our issues are regularly tagged so that you can also filter down the issues involving the components you want to work on. For our labelling policy refer [the wiki page](https://github.com/loggregator/prometheus/wiki/Label-Names-and-Descriptions).
 
 ## Pull Request Checklist
 

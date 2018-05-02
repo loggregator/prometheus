@@ -14,8 +14,8 @@
 package retrieval
 
 import (
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/storage"
 )
 
 type nopAppendable struct{}

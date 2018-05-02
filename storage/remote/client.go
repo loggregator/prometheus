@@ -29,8 +29,8 @@ import (
 	"golang.org/x/net/context/ctxhttp"
 
 	config_util "github.com/prometheus/common/config"
-	"github.com/prometheus/prometheus/prompb"
-	"github.com/prometheus/prometheus/util/httputil"
+	"github.com/loggregator/prometheus/prompb"
+	"github.com/loggregator/prometheus/util/httputil"
 )
 
 const maxErrMsgLen = 256

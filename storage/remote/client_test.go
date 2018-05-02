@@ -25,7 +25,7 @@ import (
 
 	config_util "github.com/prometheus/common/config"
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/prompb"
+	"github.com/loggregator/prometheus/prompb"
 )
 
 var longErrMessage = strings.Repeat("error message", maxErrMsgLen)

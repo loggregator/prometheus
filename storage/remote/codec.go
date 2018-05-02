@@ -23,9 +23,9 @@ import (
 	"github.com/golang/snappy"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/prompb"
-	"github.com/prometheus/prometheus/storage"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/prompb"
+	"github.com/loggregator/prometheus/storage"
 )
 
 // DecodeReadRequest reads a remote.Request from a http.Request.

@@ -19,8 +19,8 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/prometheus/config"
-	"github.com/prometheus/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/config"
+	"github.com/loggregator/prometheus/pkg/labels"
 )
 
 func TestRelabel(t *testing.T) {

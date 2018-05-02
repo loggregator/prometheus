@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/labels"
 )
 
 // Function represents a function of the expression language and is
@@ -653,7 +653,7 @@ func funcDeriv(ev *evaluator, args Expressions) Value {
 
 		// We pass in an arbitrary timestamp that is near the values in use
 		// to avoid floating point accuracy issues, see
-		// https://github.com/prometheus/prometheus/issues/2674
+		// https://github.com/loggregator/prometheus/issues/2674
 		slope, _ := linearRegression(samples.Points, samples.Points[0].T)
 		resultSample := Sample{
 			Metric: dropMetricName(samples.Metric),

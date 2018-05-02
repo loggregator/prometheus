@@ -24,10 +24,10 @@ import (
 	"time"
 
 	"github.com/prometheus/common/model"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/pkg/value"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/pkg/value"
 
-	"github.com/prometheus/prometheus/util/strutil"
+	"github.com/loggregator/prometheus/util/strutil"
 )
 
 type parser struct {

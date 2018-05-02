@@ -29,8 +29,8 @@ import (
 	"github.com/prometheus/common/model"
 
 	config_util "github.com/prometheus/common/config"
-	"github.com/prometheus/prometheus/pkg/labels"
-	"github.com/prometheus/prometheus/util/httputil"
+	"github.com/loggregator/prometheus/pkg/labels"
+	"github.com/loggregator/prometheus/util/httputil"
 )
 
 const (

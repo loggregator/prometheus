@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/prometheus/util/testutil"
+	"github.com/loggregator/prometheus/util/testutil"
 )
 
 var promPath string

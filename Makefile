@@ -28,13 +28,13 @@ ifdef DEBUG
 endif
 
 STATICCHECK_IGNORE = \
-  github.com/prometheus/prometheus/discovery/kubernetes/kubernetes.go:SA1019 \
-  github.com/prometheus/prometheus/discovery/kubernetes/node.go:SA1019 \
-  github.com/prometheus/prometheus/documentation/examples/remote_storage/remote_storage_adapter/main.go:SA1019 \
-  github.com/prometheus/prometheus/pkg/textparse/lex.l.go:SA4006 \
-  github.com/prometheus/prometheus/pkg/pool/pool.go:SA6002 \
-  github.com/prometheus/prometheus/promql/engine.go:SA6002 \
-  github.com/prometheus/prometheus/web/web.go:SA1019
+  github.com/loggregator/prometheus/discovery/kubernetes/kubernetes.go:SA1019 \
+  github.com/loggregator/prometheus/discovery/kubernetes/node.go:SA1019 \
+  github.com/loggregator/prometheus/documentation/examples/remote_storage/remote_storage_adapter/main.go:SA1019 \
+  github.com/loggregator/prometheus/pkg/textparse/lex.l.go:SA4006 \
+  github.com/loggregator/prometheus/pkg/pool/pool.go:SA6002 \
+  github.com/loggregator/prometheus/promql/engine.go:SA6002 \
+  github.com/loggregator/prometheus/web/web.go:SA1019
 
 all: format staticcheck build test
 
